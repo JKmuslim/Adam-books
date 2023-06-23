@@ -1,0 +1,125 @@
+:root{
+    --light: rgb(206, 210, 210);;
+    --dark: grey;
+}
+
+body{ 
+    background:linear-gradient(
+        to top right ,
+        var(--light),
+        var(--dark)
+    );
+    width: 95vw;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 60px;
+    text-shadow: 0 0 4px blue;
+}
+
+.book{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 380px;
+    
+}
+
+.empik{
+    color: white;
+    text-decoration:none;
+    border: 6px solid blue;
+    background: blue;
+    box-shadow: 0 0 10px 0 blue;
+
+}
+
+.empik:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity: 40%;
+}
+
+.tania{
+    color: white;
+    text-decoration:none;
+    border: 6px solid blue;
+    background: blue;
+    box-shadow: 0 0 10px 0 blue;
+}
+
+.tania:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity: 40%;
+}
+
+.gandalf{
+    color:white;
+    text-decoration:none;
+    border: 6px solid blue;
+    background: blue;
+    box-shadow: 0 0 10px 0 blue;
+}
+
+.gandalf:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity: 40%;
+}
+
+.img{
+    width: 380px;
+    height: 520px;
+    margin-top: -220px;
+    margin-left: 16px;
+    box-shadow: 0 0 30px 0 blue;
+}
+
+.powrót{
+    font-size: 26px;
+    color: white;
+    border: 4px solid blue;
+    background: blue;
+    box-shadow: 0 0 10px 0 blue;
+    text-decoration:none;
+    margin-left: 260px;
+}
+
+.powrót:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity: 50%;
+}
+
+@media only screen and (max-width: 412px)  {
+
+    .book{
+        margin-left: -30px;
+        font-size: 26px;
+    }
+
+    .powrót{
+        font-size: 26px;
+        margin-left:5px;
+        margin-top:50px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+
+    .title{
+        margin-left: -5px;
+        margin-top: 50px;
+        font-size: 22px;
+    }
+
+    .img{
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+}

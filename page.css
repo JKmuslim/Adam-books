@@ -1,0 +1,331 @@
+:root{
+    --light: rgb(178, 180, 183);
+    --dark: grey;
+}
+
+.container{
+    background: linear-gradient( 
+        to top right,
+        var(--dark),
+        var(--light)
+    );
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.odsyłacze{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 20px;
+    margin-left: -220px;
+}
+
+.odsyłacz{
+    color: white;
+    border: 6px solid blue;
+    background-color: blue;
+    box-shadow: 0 0 10px 0 blue;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 502px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.odsyłacz:hover{
+    box-shadow: 0 0 26px 0 black;
+}
+
+.filmy{
+    border: 6px solid blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    box-shadow: 0 0 10px 0 blue;
+
+}
+
+.filmy:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity:50%;
+}
+
+.siedemdni{
+    border: 6px solid blue;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    box-shadow: 0 0 10px 0 blue;
+}
+
+.siedemdni:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity:50%;
+}
+
+.podmaska{
+    text-decoration:none;
+    border: 6px solid blue;
+    color: white;
+    background-color: blue;
+    text-decoration:none;
+    box-shadow: 0 0 10px 0 blue;
+}
+
+.podmaska:hover{
+    box-shadow: 0 0 26px 0 black;
+    opacity: 50%;
+}
+
+.odsyłacz{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.text1{ 
+    color: black;
+    font-size: 23px;
+    margin-left:-30px ;
+    margin-bottom: 100px;
+    margin-top: -530px;
+    text-shadow: 0 0 2px blue;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    font-size: 70px;
+    font-family: 'montserrat';
+    color: white;
+    text-shadow: 0 0 10px blue;
+}
+
+span{
+    font-size:24px;
+    margin-top:-250px;
+    margin-left:-20px;
+}
+
+.prof{
+    width: 250px;
+    height: 300px;
+    margin-left: 880px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 0 blue;
+    margin-bottom: 100px;
+}
+
+.photo{
+    margin-left: 50px;
+    margin-top: 10px;
+    width:380px;
+    height: 520px;
+    display:inline-flex;
+    align-items: center;
+    border-radius:12px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 50px 0 blue;
+}
+
+.photo:hover{
+    box-shadow: 0 0 50px 0 white;
+    opacity: 60%;
+}
+
+.photo2{
+    margin-left: 750px;
+    width: 380px;
+    height: 520px;
+    display: flex;
+    border-radius: 12px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 80px 0 blue;
+}
+
+.photo2:hover{
+    box-shadow: 0 0 50px 0 white;
+    opacity: 60%;
+}
+
+
+.text2{
+    font-size: 24px;
+    margin-left: 460px;
+    margin-top: -410px;
+    color: black;
+    text-shadow: 0 0 60px black;
+    text-shadow: 0 0 2px blue;
+}
+
+
+.text3{
+    color: black;
+    text-shadow: 0 0 60px black;
+    font-size: 24px;
+    margin-top: -580px;
+    text-shadow: 0 0 2px blue;
+}
+
+.tytuł{
+    color:black;
+    text-shadow: 0 0 4px blue;
+    display: flex;
+    justify-content: space-around;
+    font-size:50px;
+    margin-top:40px;
+}
+
+.mini{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.miniatures:hover{
+    opacity: 40%;
+}
+
+.miniatures2:hover{
+    opacity: 40%;
+}
+
+.section1{
+    background: linear-gradient(
+        to top left,
+        var(-- rgb(248, 249, 249)),
+        var(--blue)
+    );
+    margin-left: -50px;
+    width: 1212px;
+    height: 650px;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.icon-youtube-play{
+    color: red;
+}
+
+.icon-youtube-play:hover{
+    box-shadow: 0 0 10px 0 white;
+}
+
+.icon-instagram{
+    color: rgb(223, 74, 129)
+}
+
+.icon-instagram:hover{
+    box-shadow: 0 0 10px 0 white;
+}
+
+.icon-twitter:hover{
+    box-shadow: 0 0 10px 0 white;
+}
+
+.icons{
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.sign{
+    color: white;
+    font-size: 10px;
+    opacity: 30%;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 412px)  {
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 
+        to top right,
+        var(--light),
+        var(--dark)
+        );
+}
+
+.odsyłacze{
+    display:flex;
+    justify-content:space-around ;
+    margin-left: -10px;
+}
+
+.odsyłacz{
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.title{
+    margin-left: 40px;
+    font-size: 44px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.prof{
+    margin-left: 70px;
+}
+
+.text1{
+    margin-left: 10px;
+    margin-top: -100px;
+}
+
+.section1{
+    width: 449px;
+    height: 1300px;
+}
+
+.text2{
+    margin-left:20px;
+    margin-top: 46px;
+}
+
+.section2{
+
+}
+
+.photo2{
+    margin-left:2px;
+}
+
+.text3{
+    margin-top: 100px;
+    margin-left: -20px;
+}
+
+.mini{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+    margin-left: -30px;
+}
+
+
+}
